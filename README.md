@@ -1,11 +1,12 @@
-A single page one column resume for software developers. It uses the base latex templates and fonts to provide ease of use and installation when trying to update the resume. The different sections are clearly documented and custom commands are used to provide consistent formatting. The three main sections in the resume are education, experience and projects.
+# Resume
 
-### Motivation
-
-I created this as managing a resume on Google Docs was hard and changing any formatting was too difficult as had to be applied in multiple places. Most currently available templates either focus on two columns or are multiple pages. I personally found the two columns ones hard to focus while multi page resumes were just two long to be used in career fairs.
+A latex based, single column resume based on Sourabh Bajaj's resume for Developers. (I personally prefer tables to bullets)
 
 ### Preview
-![Resume Screenshot](/resume_preview.png)
+![Resume Screenshot](/resume.png)
 
 ### License
-Format is MIT but all the data is owned by Sourabh Bajaj.
+Format is MIT but all the data is owned by Dhruv Kool Rajamani.
+
+### Acknowledgements
+Sourabh Bajaj's resume : [Soutabh Bajaj](https://github.com/sb2nov)
