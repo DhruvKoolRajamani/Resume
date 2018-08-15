@@ -52,8 +52,14 @@
 %-------------------------
 % Custom commands
 \newcommand{\resumeItem}[2]{
-  \item\small{
-    \textbf{#1:}{\vspace{-4pt} \noindent #2}
+  \item \small{
+    \textbf{#1:}{\vspace{-6pt} \noindent #2}
+  }
+}
+
+\newcommand{\projectItem}[2]{
+  \item \small{
+    \textbf{#1: }{#2 \vspace{-2mm}}
   }
 }
 
@@ -65,7 +71,7 @@
     \end{tabular*}\vspace{-5pt}
 }
 
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}}
 
 \renewcommand{\labelitemii}{$\circ$}
 
@@ -232,29 +238,33 @@
   }
   \end{table}
 
+  \vspace{-6mm}
+%--------TECHNICAL SKILLS------------
+\section{Technical Skills}
+\vspace{-4mm}
+\begin{table}[h]
+  \centering
+  \resizebox{\textwidth}{!}{
+  \begin{tabular}{ll}
+    \vspace{1mm}
+    \textbf{Programming} & \hspace{4mm} C++,  Python, C\#, MATLAB, Simulink, Embedded C, \LaTeX, Arduino, HTML, CSS \\
+    \vspace{1mm}
+    \textbf{Robotics Software} & \hspace{4mm} ROS, OROCOS, GazeboSim, RViz \\
+    \textbf{CAD \& CAM} & \hspace{4mm} ANSYS Mechanical Workbench, ADAMS, Soliworks, CATIA V6, AutoCAD, Blender
+  \end{tabular}
+  }
+  \end{table}
+
+  \vspace{-4mm}
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
-    \resumeSubItem{QuantSoftware Toolkit}
-      {Open source python library for financial data analysis and machine learning for finance.}
-    \resumeSubItem{Github Visualization}
-      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
-    \resumeSubItem{Recommendation System}
-      {Music and Movie recommender systems using collaborative filtering on public datasets.}
-    \resumeSubItem{Mac Setup}
-      {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+    \projectItem{Obstacle detection and Path planning for a mobile autonomous robot using computer vision and fuzzy logic}
+      {Implemented a heuristic based fuzzy logic approach for path planning through an unknown environment.}
+    \projectItem{Traffic Detection using a Kalman Filter}
+      {MATLAB Project to detect moving vehicles in a video feed from a traffic
+      camera using Kalman filter and Feature detection.}
   \resumeSubHeadingListEnd
-
-%
-%--------PROGRAMMING SKILLS------------
-%\section{Programming Skills}
-%  \resumeSubHeadingListStart
-%    \item{
-%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
-%      \hfill
-%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
-%    }
-%  \resumeSubHeadingListEnd
 
 
 %-------------------------------------------
